@@ -23,11 +23,6 @@ variable "public_subnets" {
   type        = list(string)
 }
 
-variable "ecr_image_url" {
-  description = "URL of the ECR image to use for the ECS task"
-  type        = string
-}
-
 variable "container_port" {
   description = "Container port to expose"
   type        = number
